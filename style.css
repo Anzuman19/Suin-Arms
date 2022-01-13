@@ -4,11 +4,12 @@ body {
 }
 .first-section {
   display: flex;
-  height: 500px;
+  height: 700px;
   max-width: 80%;
   margin-left: 15%;
-  margin-bottom: 40px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 20px;
 }
 .image {
   height: 500px;
@@ -20,27 +21,49 @@ body {
   background-size: 650px;
 }
 
+.intro {
+  height: 400px;
+  padding: 10;
+}
+.suin-div {
+  height: 600px;
+}
+
 .second-section {
   display: flex;
   height: 550px;
   max-width: 80%;
   margin-left: 15%;
+  padding-top: 40px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 .Anzu {
   background-image: url(images/sun.png);
   background-position: 100px;
   background-repeat: no-repeat;
+  height: 500px;
+  padding: 10px;
+}
+.Anzu-div {
+  height: 500px;
+  padding: 10px;
 }
 .third-section {
   display: flex;
-  height: 600px;
+  height: 650px;
   max-width: 80%;
   margin-left: 15%;
   background-image: url(images/shape-7.png);
   background-repeat: no-repeat;
   background-size: 500px;
-
+  margin-bottom: 20px;
   background-position: 470px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 20px;
+  
 }
 /* .sush{
   margin-right: 40px;
@@ -49,6 +72,11 @@ body {
 } */
 #Sush {
   border-radius: 20px;
+}
+.sush-div {
+  align-items: center;
+  margin-right: 30px;
+  padding-right: 30px;
 }
 
 .fourth-section {
@@ -59,8 +87,11 @@ body {
   background-image: url(images/shape-6.png);
   background-repeat: no-repeat;
   background-size: 350px;
-
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-position: left;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 
 .button {
@@ -69,7 +100,7 @@ body {
   color: white;
   padding: 15px 32px;
   text-align: center;
-  text-decoration:none;
+  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
@@ -81,7 +112,6 @@ body {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   color: white;
-  
 }
 
 /* .sush-div {
@@ -95,14 +125,46 @@ body {
   background-image: url(images/shape-2.png);
   background-repeat: no-repeat;
   background-size: 300px;
-
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-position: right;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  
 }
 #rozi {
   border-radius: 10px;
 }
-.rozi-content{
+.rozi-content {
   padding: 25px;
   margin-right: 10px;
   align-content: center;
 }
+.sixth-section {
+  display: flex;
+  height: 550px;
+  max-width: 80%;
+  margin-left: 15%;
+  background-image: url(images/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 310px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-position: left;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-right: 15px;
+}
+/* @media (max-width: 700px) {
+  .intro {
+    background-color: beige;
+    margin-bottom: 40px;
+  }
+  .first-section {
+    flex-direction: column;
+  }
+}
+@media (min-width: 900px) {
+  .intro {
+    background-color: rgb(190, 214, 214);
+  }
+} */
