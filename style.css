@@ -8,27 +8,31 @@ body-container {
   height: 100vh;
   max-width: 100%;
 }
-.first-div{
-margin-left: 10%;
-max-width: 100%;
-height: 1050px;
-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-background-image: url(images/we2.png);
-background-repeat: no-repeat;
-background-size: cover;
+
+.first-div {
+  margin-left: 10%;
+  max-width: 100%;
+  height: 1050px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url(images/we2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.we{
+.we {
   border-radius: 50%;
+}
+h1{
+  font-size: 40px;
 }
 
 h2 {
-  font-family: 'Aclonica', sans-serif;
-  font-size: 40px;
+  font-family: "Aclonica", sans-serif;
+  font-size: 36px;
   color: #26baf0;
 }
-p{
-  font-family: 'Bubblegum Sans', cursive;
-  font-size: 25px;
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
   line-height: 1.5em;
   color: grey;
 }
@@ -40,38 +44,37 @@ p{
   margin-bottom: 20px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-left: 20px;
-  margin-right: 50px;
+  margin-right: 40px;
+ 
   /* align-items: center; */
 }
 
-  
-
 .image {
-  height: 500px;
+  height: 550px;
   border-radius: 5px;
-  margin-right: 50px;
+  margin-left: 45%;
   background-repeat: no-repeat;
   background-image: url(images/shape-9.png);
   background-position: 250px;
   background-size: 650px;
 }
 .audio1 {
-  margin-left: 25%;
+  margin-left: 60%;
 }
 .intro {
-  height: 500px;
-  width: 500px;
+  height: 700px;
+  width: 800px;
   padding: 10;
-  margin-left: 40px;
+  
 }
 .suin-div {
   height: 600px;
-  margin-left: 45%;;
+  /* margin-left: 45%; */
 }
 
 .second-section {
   display: flex;
-  
+
   height: 600px;
   max-width: 100%;
   margin-left: 10%;
@@ -126,12 +129,11 @@ p{
   margin-right: 30px;
   padding-right: 40px;
 }
-.sush-content{
+.sush-content {
   background-image: url(images/shape-7.png);
   background-size: 500px;
   background-repeat: no-repeat;
   background-position: top;
-
 }
 
 .fourth-section {
@@ -175,7 +177,7 @@ p{
 } */
 .fifth-section {
   display: flex;
-  height: 550px;
+  height: 600px;
   max-width: 100%;
   margin-left: 10%;
   background-image: url(images/shape-2.png);
@@ -210,14 +212,15 @@ p{
   padding-right: 10px;
   margin-right: 50px;
 }
-.seventh-section,.eighth-section{
+.seventh-section,
+.eighth-section {
   display: flex;
   height: 650px;
   max-width: 100%;
   margin-left: 10%;
   background-image: url(images/shape-2.png);
   background-repeat: no-repeat;
-  background-size: 400px;
+  background-size: 500px;
 
   margin-bottom: 20px;
   background-position: left;
@@ -225,7 +228,15 @@ p{
   padding-left: 20px;
   margin-right: 50px;
 }
-.eighth-section{
+.zinu {
+  margin-left: 0px;
+  border-radius: 10px;
+}
+.zinu-poem {
+  margin-left: 20%;
+  margin-top: 40px;
+}
+.eighth-section {
   display: flex;
   height: 550px;
   max-width: 100%;
@@ -238,17 +249,11 @@ p{
   background-position: left;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-left: 20px;
-  
-
 }
-.mourz-content{
-
-    margin-left: 10%;
-    
-
+.mourz-content {
+  margin-left: 10%;
 }
-#mourz{
-
+#mourz {
   border-radius: 30px;
   margin-left: 22px;
   margin-top: 10px;
