@@ -245,7 +245,11 @@ p {
 
 }
 
-
+.shaz{
+  margin-left: 15%;
+  border-radius: 20px;
+  padding: 40px;
+}
 
 #rozi {
   border-radius: 10px;
