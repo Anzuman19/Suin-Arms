@@ -82,14 +82,14 @@ p {
 }
 .intro {
   height: 700px;
-  width: 700px;
+  width: 740px;
   padding: 10;
   margin-left: 80px;
   
 }
 .suin-div {
   height: 600px;
-  width: 600px;
+  width: 510px;
   /* margin-left: 45%; */
 }
 
@@ -230,7 +230,7 @@ p {
   margin-left: 10%;
   background-image: url(images/shape-8.png);
   background-repeat: no-repeat;
-  background-size: 300px;
+  background-size: 350px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-position: right;
   margin-bottom: 20px;
@@ -242,6 +242,13 @@ p {
 .vedio{
 
   margin-left: 10%;
+
+}
+.bro{
+  margin-right: 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 20 20;
 
 }
 
