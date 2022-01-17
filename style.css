@@ -2,11 +2,15 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(156, 156, 169);
+  background-image: url(images/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: -300px
 }
 
 body-container {
   height: 100vh;
   max-width: 100%;
+   
 }
 
 .first-div {
@@ -18,6 +22,8 @@ body-container {
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 8%;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
 }
 .we {
   border-radius: 50%;
@@ -30,8 +36,7 @@ h1{
   
 }
 
-h2 {
-  font-family: "Aclonica", sans-serif;
+h2 {font-family: "Aclonica", sans-serif;
   font-size: 36px;
   color: #26baf0;
   
@@ -55,6 +60,7 @@ p {
   padding-left: 20px;
   margin-right: 8%;
   background-color: whitesmoke;
+  margin-top: 20px;
  
   /* align-items: center; */
 }
@@ -222,7 +228,7 @@ p {
   height: 600px;
   max-width: 100%;
   margin-left: 10%;
-  background-image: url(images/shape-2.png);
+  background-image: url(images/shape-8.png);
   background-repeat: no-repeat;
   background-size: 300px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -233,6 +239,14 @@ p {
   background-color: whitesmoke;
   margin-right: 8%;
 }
+.vedio{
+
+  margin-left: 10%;
+
+}
+
+
+
 #rozi {
   border-radius: 10px;
 }
@@ -410,6 +424,47 @@ a {
   left: 0;
   background-color: rgba(52,73,94,0.75);
 }
+
+.image-gallery{
+
+  height: 1200px;
+  max-width: 100%;
+  /* background-color: whitesmoke; */
+
+}
+
+
+
+/* ----------------------FOOTER--------------------------- */
+
+.footer-icon {
+  list-style: none;
+  display: inline;
+}
+.footer li {
+  display: inline;
+}
+.footer li i {
+  margin: 10px;
+  color:#ffffff;
+}
+.footer {
+  max-width: 100%;
+  height: 200px;
+  background-color: rgb(77, 76, 74);
+  text-align: center;
+  padding-top: 30px;}
+
+  #h3 {
+    color: rgb(245, 244, 244);
+    font-size: 20px;
+  }
+  #h4 {
+    color: rgb(253, 250, 250);
+    font-size: 12px;
+  }
+
+  
 
 /* Media Queries */
 @media screen and (max-width: 960px) {
